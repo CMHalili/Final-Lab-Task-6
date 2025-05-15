@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finals Lab Task 1 - MySQL Basics</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #1c1e21;
+      overflow-x: hidden;
+      background: url('https://img1.picmix.com/output/stamp/normal/0/7/8/0/2580870_8444e.gif') repeat;
+      background-size: 200px;
+    }
+
+    header {
+      padding: 3rem 2rem 1rem;
+      background-color: #00CDFEcc;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    .profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-right: 1.5rem;
+  float: left;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #00CDFEcc;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      color: #1877f2;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .card p, .card a {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #1c1e21;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    footer {
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+      background-color: #00CDFEcc;
+      color: #fff;
+      text-align: center;
+    }
+     /* Button design for download link */
+    .download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+      background-color: #1877f2;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #0f5db7;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+ <header>
+  <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/kawaiichibicass.gif?raw=true" alt="Cassandra Halili" class="profile-pic" />
+  <h1><strong>Finals Lab Task 6</strong></h1>
+  <p><strong>MongoDatabase</strong></p>
+  <p><strong>Apllication of CRUD</strong></p>
+</header>
+
+  <div style="max-width: 900px; margin: 2rem auto; padding: 0 2rem;">
+  <section style="overflow: auto;">
+      <h2>Portfolio Overview</h2>
+      <div class="card">
+        <p>This portfolio involves practicing basic MongoDB functions like creating a database, adding documents, and using find, update, search, and delete commands in a collection.</p>
+        <!-- Download Button -->
+        <a href="" class="download-btn" download>
+            Download The Word File
+        </a>
+      </div>
+
+      <h2>Step by Step Process</h2>
+      <div class="card">
+       <ol>
+    <li><strong>Create a Database</strong>
+      <ul>
+        <li>Begin by either creating a new database or switching to an existing one.</li>
+        <li>This will be the active database for the tasks ahead.</li>
+      </ul>
+    </li>
+    <li><strong>Insert Documents</strong>
+      <ul>
+        <li>Create a collection within the database.</li>
+        <li>Add several documents, each with structured fields like name, age, and address.</li>
+      </ul>
+    </li>
+    <li><strong>Find Documents</strong>
+      <ul>
+        <li>View all documents in the collection.</li>
+        <li>Use query filters to retrieve specific entries based on values like name or ID.</li>
+      </ul>
+    </li>
+    <li><strong>Update Documents</strong>
+      <ul>
+        <li>Find the document you want to change using a condition (e.g., name or ID).</li>
+        <li>Modify the selected field(s) and apply the update.</li>
+        <li>Check if the update was successful.</li>
+      </ul>
+    </li>
+    <li><strong>Search Documents</strong>
+      <ul>
+        <li>Apply conditions (e.g., age above a certain value or status equals something) to find matching documents.</li>
+        <li>Review the search results.</li>
+      </ul>
+    </li>
+    <li><strong>Delete Documents</strong>
+      <ul>
+        <li>Select the document(s) to delete using specific conditions.</li>
+        <li>Remove them from the collection.</li>
+        <li>Confirm the deletion by checking the collection again.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2>Screenshots/Queries:</h2>
+
+  <h3>Step 1:</h3>
+  <img src="https://github.com/user-attachments/assets/0449a418-24fa-4917-932a-26b05f800028" alt="Step 1 Image 1">
+  <img src="https://github.com/user-attachments/assets/20adcbbe-4bd3-4424-bdb8-660f3d5eac5f" alt="Step 1 Image 2">
+
+  <h3>Step 2:</h3>
+  <img src="https://github.com/user-attachments/assets/cbcf3397-b9f5-4073-a892-4ea24e7cfe45" alt="Step 2 Image">
+
+  <h3>Step 3:</h3>
+  <img src="https://github.com/user-attachments/assets/cbcda997-6d04-4f33-9455-cbb35f80ada7" alt="Step 3 Image">
+
+  <h3>Step 4:</h3>
+  <img src="https://github.com/user-attachments/assets/15859e5f-cc51-41af-ab73-b7fa02fbea8c" alt="Step 4 Image">
+
+  <h3>Step 5:</h3>
+  <img src="https://github.com/user-attachments/assets/f3fa8e25-f43e-4d4f-af81-bc4e2a4ab6a0" alt="Step 5 Image">
+
+  <h3>Step 6:</h3>
+  <img src="https://github.com/user-attachments/assets/c1463d9f-5d04-4361-972d-d8c58816fffb" alt="Step 6 Image">
+
+  <h3><strong>Update Documents Screenshots:</strong></h3>
+  <img src="https://github.com/user-attachments/assets/28a9aa1e-c5ee-40dd-9174-847f8bf49309" alt="Update Document Image">
+
+  <h3><strong>Text Search Screenshots:</strong></h3>
+  <img src="https://github.com/user-attachments/assets/23f8f9e3-6692-4c28-a30a-03b9cae32892" alt="Text Search Image 1">
+  <img src="https://github.com/user-attachments/assets/bbd8f49f-38d7-47fd-adad-441adecb383d" alt="Text Search Image 2">
+  <img src="https://github.com/user-attachments/assets/a0e94f8b-fcc9-409b-a310-102bd93e94f4" alt="Text Search Image 3">
+  <img src="https://github.com/user-attachments/assets/d48d9ddd-e5b2-4948-b6dd-3185aaa6a7a8" alt="Text Search Image 4">
+  <img src="https://github.com/user-attachments/assets/d3ecaaa1-9802-40a8-b799-2b086465d52c" alt="Text Search Image 5">
+
+  <h3><strong>Delete Document Screenshots:</strong></h3>
+  <img src="https://github.com/user-attachments/assets/2ad3d3ce-eb7b-47f8-a0ba-1c2a7594918d" alt="Delete Document Image 1">
+  <img src="https://github.com/user-attachments/assets/192522c1-e5db-4e52-b929-42a7b57f6ece" alt="Delete Document Image 2">
+</section>
+</div>
+ <footer>
+    <p>©Cassandra Halili | Class I102 | 2025</p>
+    <a href="https://github.com/CMHalili/Final-Lab-Task-6" target="_blank" style="color:var(--neon); text-shadow: 0 0 6px var(--neon);">View Finals Lab Task 6 on Github</a>
+  </footer>
+
+</body>
+</html>
