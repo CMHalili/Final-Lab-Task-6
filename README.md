@@ -78,6 +78,6 @@
 
 ### **Delete Document Screenshots:**
 
-* ![Image](https://github.com/user-attachments/assets/7e32fd8f-b90e-4d23-929d-d9d0315753b4)
+* ![Image](https://github.com/user-attachments/assets/2ad3d3ce-eb7b-47f8-a0ba-1c2a7594918d)
 * ![Image](https://github.com/user-attachments/assets/192522c1-e5db-4e52-b929-42a7b57f6ece)
 
