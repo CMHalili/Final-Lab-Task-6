@@ -98,14 +98,14 @@
 
 ## Relationships
 ### Insert the following documents into a `users` collection
-- ![Image](https://github.com/user-attachments/assets/72c55764-ae21-4956-9050-ee81215f31c6)
+-  ![Image](https://github.com/user-attachments/assets/ba3c00fd-72af-4b50-b769-9b7afb6b3d74)
+
   
 ### Insert the following documents into a `posts` collection
-- ![Image](https://github.com/user-attachments/assets/65cff780-183d-44ca-bc71-dc3f82175507)
+-  ![Image](https://github.com/user-attachments/assets/cb166538-70c9-41f8-b449-994c2c760950)
 
 ### Insert the following documents into a `comments` collection
-- ![Image](https://github.com/user-attachments/assets/10e1ada2-528f-4ef8-9ac8-f968141be180)
-
+-  ![Image](https://github.com/user-attachments/assets/b9263621-02d5-4203-98a1-827a1cbe7403)
 
 
 
