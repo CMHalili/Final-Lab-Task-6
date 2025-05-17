@@ -1,4 +1,4 @@
-# [Final-Lab-Task-6]()
+# [Final-Lab-Task-6](https://github.com/user-attachments/files/20264609/Final.Lab.6.Halili.docx)
 - This activity involves practicing basic MongoDB functions like creating a database, adding documents, and using find, update, search, and delete commands in a collection.
 
 ## Step-by-Step Instructions:
@@ -80,4 +80,32 @@
 
 * ![Image](https://github.com/user-attachments/assets/2ad3d3ce-eb7b-47f8-a0ba-1c2a7594918d)
 * ![Image](https://github.com/user-attachments/assets/192522c1-e5db-4e52-b929-42a7b57f6ece)
+
+# Screenhots/ Queries:
+### 1.)
+- ![Image](https://github.com/user-attachments/assets/3bf52cba-47f9-4d72-b357-a81f00aabfaf)
+- ![Image](https://github.com/user-attachments/assets/d4aa3871-4471-4cf2-9c37-b3a4e443a04f)
+### 2.)
+- ![Image](https://github.com/user-attachments/assets/54548a3b-1ae3-4a1b-9556-d8a6798c319c)
+### 3.)
+- ![Image](https://github.com/user-attachments/assets/37aee8c8-9c88-44cc-b757-e4fd8773ceb5)
+### 4.)
+- ![Image](https://github.com/user-attachments/assets/334d88a1-6c2d-4fc2-a819-a255326d8177)
+### 5.)
+- ![Image](https://github.com/user-attachments/assets/0b2e5410-a192-4f5c-8545-fbbd08761c4f)
+### 6.)
+- ![Image](https://github.com/user-attachments/assets/5fd4f476-3042-431b-9901-fea0600a22f6)
+
+## Relationships
+### Insert the following documents into a `users` collection
+- ![Image](https://github.com/user-attachments/assets/72c55764-ae21-4956-9050-ee81215f31c6)
+  
+### Insert the following documents into a `posts` collection
+- ![Image](https://github.com/user-attachments/assets/65cff780-183d-44ca-bc71-dc3f82175507)
+
+### Insert the following documents into a `comments` collection
+- ![Image](https://github.com/user-attachments/assets/10e1ada2-528f-4ef8-9ac8-f968141be180)
+
+
+
 
